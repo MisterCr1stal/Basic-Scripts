@@ -1,0 +1,49 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("A Bizarre Day Sound Trolling", "GrapeTheme")
+
+local Tab = Window:NewTab("Sound Trolling")
+local Section = Tab:NewSection("Sound Trolling...")
+
+Section:NewButton("Arcana", "Arcana Sound", function()
+    print("ARCANA")
+    game.Workspace.Arcana.Playing = true
+    wait(5)
+    game.Workspace.Arcana.Playing = false
+end)
+
+Section:NewButton("GER", "GER Sound", function()
+    print("GER")
+    game.Workspace.GERend.Playing = true
+    wait(5)
+    game.Workspace.GERend.Playing = false
+end)
+
+Section:NewButton("Roller", "Roller Sound", function()
+    print("ROLLER")
+    game.Workspace.RollerTS.Playing = true
+    wait(5)
+    game.Workspace.ROllerTS.Playing = false
+end)
+
+Section:NewButton("NANI", "NANI Sound", function()
+    print("NANI")
+    game.Workspace.NANI.Playing = true
+    wait(5)
+    game.Workspace.NANI.Playing = false
+end)
+
+Section:NewButton("MIH Bass", "MIH Bass Sound", function()
+    print("MIH BASS")
+    game.Workspace.MIHBass.Playing = true
+    wait(5)
+    game.Workspace.MIHBass.Playing = false
+end)
+
+
+Section:NewButton("Time Start", "Time Start Sound", function()
+    print("TIMESTART")
+    game.Workspace.TimeStart.Playing = true
+    wait(5)
+    game.Workspace.TimeStart.Playing = false
+end)
